@@ -257,7 +257,9 @@ a:hover {
         background-image: url(./static/phone.svg);
         width: 18px;
         height: 18px;
-        display: inline-flex; }
+        display: inline-flex;
+        background-repeat: no-repeat;
+        padding: 2px; }
     .left-menu .section__btn-block .message-block {
       margin-right: 16px; }
       .left-menu .section__btn-block .message-block .message-block__btn::after {
@@ -271,7 +273,9 @@ a:hover {
       background-image: url(./static/account.svg);
       width: 20px;
       height: 18px;
-      display: inline-flex; }
+      display: inline-flex;
+      background-repeat: no-repeat;
+      padding: 2px; }
   .left-menu .section__contacts-block {
     margin-bottom: 40px; }
     .left-menu .section__contacts-block .contacts-block__mail {
