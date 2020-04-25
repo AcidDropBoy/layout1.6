@@ -259,7 +259,7 @@ a:hover {
         height: 18px;
         display: inline-flex;
         background-repeat: no-repeat;
-        padding: 2px; }
+        padding: 5px; }
     .left-menu .section__btn-block .message-block {
       margin-right: 16px; }
       .left-menu .section__btn-block .message-block .message-block__btn::after {
@@ -267,15 +267,15 @@ a:hover {
         background-image: url(./static/message.svg);
         width: 20px;
         height: 20px;
-        display: inline-flex; }
+        display: inline-flex;
+        background-repeat: no-repeat;
+        padding: 5px; }
     .left-menu .section__btn-block .account-block__btn_visible::after {
       content: "";
       background-image: url(./static/account.svg);
       width: 20px;
       height: 18px;
-      display: inline-flex;
-      background-repeat: no-repeat;
-      padding: 2px; }
+      display: inline-flex; }
   .left-menu .section__contacts-block {
     margin-bottom: 40px; }
     .left-menu .section__contacts-block .contacts-block__mail {
